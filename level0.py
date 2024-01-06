@@ -14,8 +14,7 @@ for i in data['neighbourhoods']:
     j+=1
 #[print(x, len(x)) for x in route]
     
-from sys import maxsize 
-from itertools import permutations
+
 
 def nearest_neighbor(route):
     num_nodes = len(route)
@@ -37,7 +36,8 @@ def nearest_neighbor(route):
 shortest_path = nearest_neighbor(route)
 print("Shortest Path:", shortest_path)
 
-
+'''from sys import maxsize 
+from itertools import permutations'''
 # implementation of traveling Salesman Problem 
 '''def travellingSalesmanProblem(graph, s): 
 
@@ -68,12 +68,9 @@ print("Shortest Path:", shortest_path)
 	return min_path '''
 
 
-'''graph=[[0, 22, 26, 30],
-          [30, 0, 45, 35],
-          [25, 45, 0, 60],
-          [30, 35, 40, 0]]'''
+
 #s=0
 #print(travellingSalesmanProblem(route, s))
-
+#outputFormat
 #{"v0": {"path": ["r0", "n14", "n9", "n4", "n17", "n2", "n19", "n10", "n15", "n18", "n5", "n16", "n11", "n13", "n7", "n8", "n20", "n6", "n1", "n12", "n3", "r0"]}}
 f.close()
